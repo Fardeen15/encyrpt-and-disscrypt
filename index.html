@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+    div{
+        font-size: 20px;
+    }
+    .font{
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    #message{
+        height: 3vh;
+        width: 20%;
+    }
+    .btn{
+        /* background-color: darkgreen; */
+        /* color: white; */
+        border: 1px solid black;
+        height: 3vh;
+        width: 10%;
+        box-shadow: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        User Message : <input type="text" id="message">
+        <button onclick="encrypt()" class="btn">encrypt</button><br> <br>
+        encrypt text : <span id="text"><span id="encryptText" class="font"></span> </span> <br><br>
+        original text : <span id="originalText" class="font"></span>
+    </div>
+</body>
+
+</html>
